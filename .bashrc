@@ -89,5 +89,8 @@ bind 'set show-all-if-unmodified on'
 # Optional: make completion case-insensitive
 bind 'set completion-ignore-case on'
 
+# COloring
+force_color_prompt=yes
+
 # External inputrc — disabled
 [[ $- == *i* ]] && bind -f ~/dotfiles/inputrc
