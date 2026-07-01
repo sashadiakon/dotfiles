@@ -1,0 +1,8 @@
+[rules]
+unresolved-reference = "error"
+invalid-assignment = "error"
+invalid-argument-type = "error"
+invalid-return-type = "error"
+missing-argument = "error"
+possibly-unbound-attribute = "error"
+unused-ignore-comment = "error"
