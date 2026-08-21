@@ -71,7 +71,7 @@ hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd(noctCall .. "brightness decreas
 -------------------
 
 -- Screen Capture
-hl.bind("Print",               hl.dsp.exec_cmd(noctCall .. "plugin:screen-toolkit annotate"))
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd(noctCall .. "plugin:screen-toolkit annotate"))
 hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd(noctCall .. "plugin:screen-toolkit annotateWindow"))
 -- hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd(noctCall .. "plugin:screen-toolkit annotateWindow"))
 hl.bind(mainMod .. " + P",     hl.dsp.exec_cmd(noctCall .. "plugin:screen-toolkit toggle"))
